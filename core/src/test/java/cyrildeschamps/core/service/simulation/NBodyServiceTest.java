@@ -41,7 +41,7 @@ class NBodyServiceTest {
             .map(Body::getPosition)
             .collect(Collectors.toList());
         
-        // Wait again to see if positions change
+        // Wait again to see if positions change :)
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
